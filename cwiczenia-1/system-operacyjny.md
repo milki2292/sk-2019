@@ -24,7 +24,6 @@ Konfiguracja połączenia sieciowego
 Schemat sieci
 -------------
 
-aby załączyć obrazek 
 
 
 ![alt schemat](https://github.com/milki2292/sk-2019/blob/master/abcd.png)![alt schemat](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
