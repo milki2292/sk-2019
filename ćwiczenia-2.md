@@ -11,13 +11,13 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 |  
-| IP - address  | | |
-| MASKA  | | |
+|   PC 1 |  CentOS-7
+| IP - address  |192.168.100.4 | |
+| MASKA  |/24 | |
 |   |  | |
-| PC 2  |  | |
-| IP - address  | | |
-| MASKA  | | |
+| PC 2  | CentOS-7 | |
+| IP - address  | 192.168.100.5| |
+| MASKA  |/24 | |
 
 Weryfikacja połączenia
 
@@ -82,8 +82,8 @@ Warto wiedzieć
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 | Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
+| UP -> Włączenie interfejsu sieciowego| if up enp0s3 | |
+| DOWN -> Wyłączenie interfejsu sieciowego| if down enp0s3 | |
 | Sprawdzenie obecnych parametrów | | |
 | lista wszystkich interfejsów | | |
 | Które interfejsy jakie porty słuchają | | |
