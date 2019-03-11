@@ -54,5 +54,5 @@ Zadanie
    * Zweryfkuj połączenie kożystając z przeglądarki, odwiedzając graficzny interfejs ``HTTP CHAT`` pod adresem ``http://172.16.100.10:8888``
    * Przygotuj dokumentację pisemno obrazkową z wykonania zadania w formacie ``markdown`` zamieść ją w serwisie ``github.com`` obok obocnego tematu ``cwiczenia-3``
 
-![zadanie 3.1](cwiczenia3.1.svg) 
-https://raw.githubusercontent.com/milki2292/sk-2019/master/%C4%86wiczenia-3/sieci.png
+![zadanie 3.1](https://raw.githubusercontent.com/milki2292/sk-2019/master/%C4%86wiczenia-3/sieci.png) 
+
