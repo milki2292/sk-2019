@@ -34,6 +34,9 @@ ip
 |   ``neigh``   |  | |
 |   ``help``    |  | |
 
+curl -X POST -d '{"text": ":D"}' http://172.16.100.10:8888/chat
+
+
 Zadanie
 ------------
 
