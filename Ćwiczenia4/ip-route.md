@@ -15,6 +15,7 @@ ip
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | |
 |               |   ``ip route add``             | |
+ip addr flush dev enp0s3
 
 
 Zadanie
