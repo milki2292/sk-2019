@@ -15,8 +15,13 @@ ip
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | |
 |               |   ``ip route add``             | |
-ip addr flush dev enp0s3
 
+Notatki
+
+ip addr flush dev enp0s3
+echo 1 > /proc/sys/net/ipv4/ip_forward
+ip route add 172.16.100.0/24 dev enp0s3
+ip route add default via 10.0.10.1
 
 Zadanie
 ------------
