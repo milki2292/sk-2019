@@ -10,3 +10,18 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
    * Dokonaj takiego podziału sieci o adresie ``172.22.128.0/17`` aby w ``LAN1`` można było zaadresować ``500`` adresów natomiast w LAN2 ``5000`` adresów    
    * Przygotuj dokumentację powyższej architektury w formie graficznej w programie ``DIA``
  
+* Tworzymy 3 maszyny wirtualne: PC0 - jako router i PC1,PC2 jako urządzenia
+* Dzielimy sieci: LAN1 otrzymała adres 172.22.160.0/23 żeby pomieściła 500 adresów
+                     LAN2 otrzymała adres 172.22.128.0/19 żeby pomieściła 5000 adresów
+* ustalamy adresy PC1 i PC2:
+  ip a add 172.22.160.6/23 dev enp0s3
+  ip a add 172.22.128.6/19 dev enp0s3
+* ustalamy adresy w PC0:
+  ip a add 172.22.160.1/23 dev enp0s8
+  ip a add 172.22.128.1/19 dev enp0s9
+* podnosimy interfejsy:
+  ip link set enp0s8 up
+  ip link set enp0s9 up
+* Podczas wykonywania zadania pomyliłem się i musiałem pozbyć się błędnie wpisanych adresów:
+  ip flush
+  
