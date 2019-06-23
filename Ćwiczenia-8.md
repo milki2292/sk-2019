@@ -11,8 +11,8 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
    * Przygotuj dokumentację powyższej architektury w formie graficznej w programie ``DIA``
  
 * Tworzymy 3 maszyny wirtualne: PC0 - jako router i PC1,PC2 jako urządzenia
-* Dzielimy sieci: LAN1 otrzymała adres 172.22.160.0/23 żeby pomieściła 500 adresów
-                     LAN2 otrzymała adres 172.22.128.0/19 żeby pomieściła 5000 adresów
+* Dzielimy sieci: LAN1 otrzymała adres `172.22.160.0/23` żeby pomieściła 500 adresów
+                     LAN2 otrzymała adres `172.22.128.0/19` żeby pomieściła 5000 adresów
 * ustalamy adresy PC1 i PC2:
   ip a add 172.22.160.6/23 dev enp0s3
   ip a add 172.22.128.6/19 dev enp0s3
