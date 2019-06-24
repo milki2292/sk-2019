@@ -1,7 +1,7 @@
 Zadanie 1
 ---------
 
-![zadanie 1](65541061_2310417072551858_7093711403621548032_n.png)
+
 
 1. Zaprojektuj oraz przygotuj prototyp rozwiązania z wykorzystaniem oprogramowania ``VirtualBox`` lub podobnego. 
 Zaproponuj rozwiązanie spełniające poniższe wymagania:
