@@ -34,3 +34,4 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
   `ip route add default via 172.22.160.1` (PC1) <br>
   `ip route add default via 172.22.128.1` (PC2)<br>
   `echo 1 > /proc/sys/net/ipv4/ip_forward`(PC0)<br>
+  `iptables -t nat -A POSTROUTING -s 172.22.160.0/23 -o enp0s3 -j MASQUERADE`(PC0)
