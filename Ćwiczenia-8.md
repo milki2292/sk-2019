@@ -37,4 +37,6 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
   `iptables -t nat -A POSTROUTING -s 172.22.160.0/23 -o enp0s3 -j MASQUERADE`(PC0)<br>
   `iptables -t nat -A POSTROUTING -s 172.22.128.0/19 -o enp0s3 -j MASQUERADE`(PC0)<br>
   ![zadanie 1](65541061_2310417072551858_7093711403621548032_n.png)
+  Diagram
+  ---------
   ![zadanie 1](diagram.png)
