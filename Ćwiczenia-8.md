@@ -17,7 +17,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
   `ip a add 172.22.160.6/23 dev enp0s3`<br>
   `ip a add 172.22.128.6/19 dev enp0s3`<br>
 * ustalamy adresy w PC0:<br>
- ` ip a add 172.22.160.1/23 dev enp0s8<br>
+ ` ip a add 172.22.160.1/23 dev enp0s8`<br>
  ` ip a add 172.22.128.1/19 dev enp0s9`<br>
 * podnosimy interfejsy:<br>
  ` ip link set enp0s8 up`<br>
