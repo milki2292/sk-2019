@@ -36,5 +36,4 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
   `echo 1 > /proc/sys/net/ipv4/ip_forward`(PC0)<br>
   `iptables -t nat -A POSTROUTING -s 172.22.160.0/23 -o enp0s3 -j MASQUERADE`(PC0)<br>
   `iptables -t nat -A POSTROUTING -s 172.22.128.0/19 -o enp0s3 -j MASQUERADE`(PC0)<br>
-  <br>
   ![zadanie 1](65541061_2310417072551858_7093711403621548032_n.png)
